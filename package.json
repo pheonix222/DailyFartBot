@@ -1,0 +1,13 @@
+json{
+  "name": "discord-art-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that posts daily art prompts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-cron": "^3.0.3"
+  }
+}
