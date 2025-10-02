@@ -21,11 +21,9 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        working-directory: ./discord-bot
         run: npm ci
 
       - name: Send daily Inktober prompt
-        working-directory: ./discord-bot
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }} # Fallback to regular channel
