@@ -1,2 +1,1 @@
-# DailyFartBot
-Bot for daily fart prompts
+# art-prompt-discord-bot
