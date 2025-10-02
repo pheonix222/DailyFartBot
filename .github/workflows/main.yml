@@ -8,7 +8,7 @@ on:
 jobs:
   send-art-promt:
     runs-on: ubuntu-latest
-    environment: test
+    environment: production
 
     steps:
       - name: Checkout code

@@ -8,7 +8,7 @@ on:
 jobs:
   send-inktober-prompt:
     runs-on: ubuntu-latest
-    environment: test
+    environment: production
 
     steps:
       - name: Checkout code
