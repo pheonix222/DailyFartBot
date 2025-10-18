@@ -41,7 +41,10 @@ const sendPromptAndExit = async () => {
     const embed = {
       color: 0x00AE86,
       title: prompt,
-      description: 'Daily art prompt',
+      description: '',
+      footer: {
+        text: ''
+      },
       timestamp: new Date(),
     }
 

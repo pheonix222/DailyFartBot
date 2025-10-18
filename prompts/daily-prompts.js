@@ -148,7 +148,7 @@ const prompts = [
 'chaos incarnate',
 'frost giant',
 'nature reclaiming civilization',
-'dragon's hoard',
+'dragons hoard',
 ];
 
 module.exports = prompts
