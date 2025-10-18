@@ -42,9 +42,6 @@ const sendPromptAndExit = async () => {
       color: 0x00AE86,
       title: prompt,
       description: 'Daily art prompt',
-      footer: {
-        text: 'Happy creating! Share your artwork when you\'re done.'
-      },
       timestamp: new Date(),
     }
 
