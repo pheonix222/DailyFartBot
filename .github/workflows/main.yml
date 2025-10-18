@@ -2,7 +2,7 @@ name: daily art prompt bot
 
 on:
   schedule:
-    - cron: '30 16 * * *'
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 jobs:
