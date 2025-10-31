@@ -45,7 +45,7 @@ const sendPromptAndExit = async () => {
       footer: {
         text: ''
       },
-      timestamp: new Date(),
+  // Remove this line: timestamp: new Date(),
     }
 
     await channel.send({ embeds: [embed]})
