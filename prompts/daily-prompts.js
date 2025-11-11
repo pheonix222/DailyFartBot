@@ -542,8 +542,7 @@ const prompts = [
 'the sun',
 'judgement',
 'the world',
-
-
+// DUMP1
 'a baba yagas house',
 'a sunbathing cat',
 'a red panda owlbear',
