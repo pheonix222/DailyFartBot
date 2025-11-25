@@ -807,7 +807,6 @@ const prompts = [
 'a koala discovering coffee for the first time',
 'a raccoon trying to return something at customer service',
 'a totally normal duck (that is clearly not normal)',
-
 ];
 
 module.exports = prompts
