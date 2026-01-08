@@ -807,6 +807,16 @@ const prompts = [
 'a koala discovering coffee for the first time',
 'a raccoon trying to return something at customer service',
 'a totally normal duck (that is clearly not normal)',
+'a goose map',
+'sanic',
+'draw your favorite pokemon from memory',
+'a butt monster',
+'fighting 10 geese-sized horses',
+'a horse-sized goose',
+'goose howard',
+'a goose riding a horse',
+'a goose dressed as a cowboy',
+'a katamari full of geese',
 ];
 
 module.exports = prompts
