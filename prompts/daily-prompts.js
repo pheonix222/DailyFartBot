@@ -903,6 +903,7 @@ const prompts = [
 'a snack from your childhood',
 'typical local food from where you are now',
 'an unexpected door knob',
+'draw horse from memory',
 ];
 
 module.exports = prompts
