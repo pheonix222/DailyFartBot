@@ -153,7 +153,6 @@ const prompts = [
 'roof',
 'tick',
 'collide',
-'moon',
 'loop',
 'fuzzy',
 'open',
