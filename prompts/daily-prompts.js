@@ -911,7 +911,6 @@ const prompts = [
 'buns',
 'rear end',
 'backside',
-':Smudge_Teef:',
 'crimson',
 'teal',
 'turquoise',
