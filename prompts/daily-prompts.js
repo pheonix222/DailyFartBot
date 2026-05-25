@@ -981,7 +981,7 @@ const prompts = [
 'adventurous snail',
 // DUMP8
 'Your favourite character from some media you loved as a kid',
-'Lvl 1 enemy',
+'lvl 1 enemy',
 'if your coffee order was a person',
 'a hot fox',
 'Garfield',
@@ -1002,6 +1002,14 @@ const prompts = [
 'molosser',
 'ruby',
 'nautical',
+'a 10 min sketch in your least used colour',
+'sunshine',
+'a ten min sketch in your most used colour',
+'something that smells of summer',
+'the last place you visited',
+'the last thing you bought',
+'based on the title of the last song you listened to',
+'a character from the last show you watched',
 ];
 
 module.exports = prompts
