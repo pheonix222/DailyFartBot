@@ -1061,6 +1061,7 @@ const prompts = [
 'a very important meeting between two bugs',
 'your zodiac sign as a fast food order',
 'a horse judging you',
+'a _ucking _uck',
 ];
 
 module.exports = prompts
