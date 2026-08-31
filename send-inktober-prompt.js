@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits } = require('discord.js')
-const inktoberPrompts = require('./prompts/inktober-2025-prompts')
+const inktoberPrompts = require('./prompts/inktober-prompts')
 require('dotenv').config()
 
 const client = new Client({
@@ -46,29 +46,9 @@ async function sendInktoberPromptAndExit() {
     const { day, prompt } = getTodaysInktoberPrompt()
     const embed = {
       color: 0x2f3136, // Dark theme color for Inktober
-      title: `🖋️ Inktober ${new Date().getFullYear()} - Day ${day}`,
+      title: `Inktober Day ${day}:`,
       description: `**${prompt}**`,
-      fields: [
-        {
-          name: "✨ Today's Challenge",
-          value: `Create an ink drawing inspired by "${prompt}"`,
-          inline: false,
-        },
-        {
-          name: '📝 Tips',
-          value:
-            '• Use any ink-based medium\n• Share your creation with #inktober2025\n• Tag @jakeparker for a chance to be featured',
-          inline: false,
-        },
-      ],
-      footer: {
-        text: 'Inktober - 31 days, 31 drawings, 31 prompts',
-      },
-      timestamp: new Date(),
-      thumbnail: {
-        url: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=100&h=100&fit=crop&crop=center',
-      },
-    }
+     
     console.log('Attempting to send Inktober embed message...')
     await channel.send({ embeds: [embed] })
     console.log(`✅ Inktober Day ${day} prompt sent successfully: ${prompt}`)
