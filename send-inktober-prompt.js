@@ -45,9 +45,10 @@ async function sendInktoberPromptAndExit() {
 
     const { day, prompt } = getTodaysInktoberPrompt()
     const embed = {
-      color: 0x2f3136, // Dark theme color for Inktober
+      color: 0xff9900, // Dark theme color for Inktober
       title: `Inktober Day ${day}:`,
       description: `**${prompt}**`,
+	}
      
     console.log('Attempting to send Inktober embed message...')
     await channel.send({ embeds: [embed] })
