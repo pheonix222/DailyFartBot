@@ -2,7 +2,7 @@ name: inktober prompt bot
 
 on:
   schedule:
-    - cron: "0 09 * * *"
+    - cron: "11 4 * * *"
   workflow_dispatch:
 
 jobs:
