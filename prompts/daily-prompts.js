@@ -611,7 +611,7 @@ const prompts = [
 'a skateboarder mid-trick',
 'a surfer on wave',
 'an olympic athlete',
-'a vintage caar',
+'a vintage car',
 'a muscle car',
 'a double decker bus',
 'a hot air balloon',
