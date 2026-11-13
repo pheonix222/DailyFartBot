@@ -927,7 +927,6 @@ const prompts = [
 'peachy',
 'rubix cube',
 'juggle',
-'7:42pm',
 'a pointless superpower',
 'a small but powerful superpower',
 'photosynthesis',
