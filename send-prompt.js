@@ -48,7 +48,7 @@ const sendPromptAndExit = async () => {
   // Remove this line: timestamp: new Date(),
     }
 
-    await channel.send({ content: prompt, embeds: [embed]})
+    await channel.send({ embeds: [embed]})
     console.log(`Daily prompt sucessfully sent: ${prompt}`)
     process.exit(0)
   } catch (err) {
