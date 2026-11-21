@@ -1207,6 +1207,9 @@ const prompts = [
 'bawdy horror',
 'dog election',
 'lesbian firefighter',
+'thick',
+'veiny',
+'turgid',
 
 ];
 
